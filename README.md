@@ -9,8 +9,6 @@ The TixBoard is a hands-on digital communications demonstration and education to
 
 The TixBoard features a single RCA socket as its medium of communication. It utilizes inexpensive RCA cables and splitters to make arbitrary and easily reconfigurable networks of TixBoards, whether point to point or on a shared bus. On the board side, it features three switches that allow for the rapid and straightforward reconfiguration of any TixBoard. It is powered by two AA batteries, which should last a long time **provided that the output not be high during storage, as this will result in the LED running and draining the battery.** It is best to set the board to Hi-Z and disable the Pull-Up switch before storing your TixBoard. The onboard LED serves as a visual indicator of both the input recieved by the TixBoard in input mode, and the output of the TixBoard in output mode. The short circuit buzzer alerts the user when they have connected TixBoards in a way that will result in excessive battery drainage.
 
-(picture here, lol)
-
 ### Input(Hi-Z)/Output Switch
 The Input/Output switch is used to change the behavior of the TixBoard. The TixBoard can be configured to **Input(Hi-Z)**, where the TixBoard will act as an input, simply allowing the LED to flash with the input. Input(Hi-Z) can also be used as part of three-state logic so that when it is switched to Hi-Z[^1], it will effectively not influence the communication system. When switched to output, the behavior of the TixBoard is determined by the Low/High switch.
 
@@ -20,4 +18,9 @@ The **Low/High** switch determines whether the TixBoard outputs logical high or 
 ### Pull-Up Switch
 The **Pull-Up** switch is used to make the output of the TixBoard default to logical high with the onboard 22kΩ pull-up resistor. A real-world example would be the I²C protocol, which grounds the output to produce a logical low, and toggles Hi-Z to let the pull-up resistor take the output to a higher voltage to make a logical high. An onboard capacitor will slow the transition from logical low to logical high to showcase one of this method's potential real-world downsides.
 
+### License
+Hardware is covered under CERN-OHL-P v2, meaning there are some restrictions on how this can be used. Read more [here](https://choosealicense.com/licenses/cern-ohl-p-2.0/).
+This file, README.md, the primary source of documentation for this device,  is covered under CC0 1.0, meaning it us free for literally antything you could dream of.
+
 [^1]: Fancy engineering speak for high impedance, a state where the output will let minimal current through. Think of it as a floating wire, as there is no path to ground. Quite literally, the Hi-Z/Input path is a dead end.
+

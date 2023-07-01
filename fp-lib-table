@@ -1,8 +1,4 @@
 (fp_lib_table
-  (lib (name "RU1J002YN")(type "KiCad")(uri "${KIPRJMOD}/ul_RU1J002YNTCL/KiCAD/2022-04-14_18-46-42")(options "")(descr ""))
-  (lib (name "KLPX-0848A-2-B")(type "KiCad")(uri "${KIPRJMOD}/ul_KLPX-0848A-2-B/KiCAD/2022-04-14_19-35-52")(options "")(descr ""))
-  (lib (name "EG1218")(type "KiCad")(uri "${KIPRJMOD}/EG1218")(options "")(descr ""))
-  (lib (name "PKM13EPYH4000-A0")(type "KiCad")(uri "${KIPRJMOD}/PKM13EPYH4000-A0")(options "")(descr ""))
-  (lib (name "BC2AAPC")(type "KiCad")(uri "${KIPRJMOD}/BC2AAPC")(options "")(descr ""))
-  (lib (name "JS102011SCQN")(type "KiCad")(uri "${KIPRJMOD}/ul_JS102011SCQN/KiCAD/footprints.pretty")(options "")(descr ""))
+  (version 7)
+  (lib (name "TixBoard Footprints")(type "KiCad")(uri "${KIPRJMOD}/TixBoard Footprints.pretty")(options "")(descr ""))
 )

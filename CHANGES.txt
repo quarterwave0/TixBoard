@@ -1,0 +1,9 @@
+6/30/2023
++ Licence change -> CERN-OHL-P-2.0
++ Compliance
++ Font Change, OSHW logo made into copper
++ Traces re-wiggled
++ Teardrops
++ Re-sourced footprints for complaince
+- PDFs, just use https://kicanvas.org/!
+- Herobrine
