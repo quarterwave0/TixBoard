@@ -20,6 +20,7 @@ The **Pull-Up** switch is used to make the output of the TixBoard default to log
 
 ### License
 Hardware is covered under CERN-OHL-P v2, meaning there are some restrictions on how this can be used. Read more [here](https://choosealicense.com/licenses/cern-ohl-p-2.0/).
+
 This file, README.md, the primary source of documentation for this device,  is covered under CC0 1.0, meaning it us free for literally antything you could dream of.
 
 [^1]: Fancy engineering speak for high impedance, a state where the output will let minimal current through. Think of it as a floating wire, as there is no path to ground. Quite literally, the Hi-Z/Input path is a dead end.
