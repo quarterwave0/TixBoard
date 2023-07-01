@@ -1,8 +1,3 @@
 (sym_lib_table
-  (lib (name "RU1J002YN")(type "Legacy")(uri "${KIPRJMOD}/ul_RU1J002YNTCL/KiCAD/2022-04-14_18-46-42/2022-04-14_18-46-42.lib")(options "")(descr ""))
-  (lib (name "KLPX-0848A-2-B")(type "Legacy")(uri "${KIPRJMOD}/ul_KLPX-0848A-2-B/KiCAD/2022-04-14_19-35-52/2022-04-14_19-35-52.lib")(options "")(descr ""))
-  (lib (name "EG1218")(type "Legacy")(uri "${KIPRJMOD}/EG1218/EG1218.lib")(options "")(descr ""))
-  (lib (name "PKM13EPYH4000-A0")(type "Legacy")(uri "${KIPRJMOD}/PKM13EPYH4000-A0/PKM13EPYH4000-A0.lib")(options "")(descr ""))
-  (lib (name "BC2AAPC")(type "Legacy")(uri "${KIPRJMOD}/BC2AAPC/BC2AAPC.lib")(options "")(descr ""))
-  (lib (name "JS102011SCQN")(type "Legacy")(uri "${KIPRJMOD}/ul_JS102011SCQN/KiCAD/2022-05-05_03-10-20.lib")(options "")(descr ""))
+  (version 7)
 )
