@@ -1,9 +1,9 @@
 Designator,Footprint,Quantity,Value,LCSC Part #
-BT1,BAT_BC2AAPC,1,2xAA,
+BT1,BC2AAPC,1,2xAA,
 "C1, C2",0805,2,10μF,
 D1,0603,1,Green,
 D2,0603,1,Red,
-J1,KLPX-0848A-2-B,1,RCA Socket,
+J1,KLPX-0848A,1,RCA Socket,
 Q1,SOT-323_SC-70,1,RU1J002YNTCL,
 "R1, R3",0603,2,150Ω,
 R2,0603,1,22kΩ,
